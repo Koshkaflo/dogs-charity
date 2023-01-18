@@ -1,2 +1,2 @@
 # dogs-charity
-The main page of charity web-site with pixel-perfect
+The main page of charity web-site with pixel-perfect plugin
