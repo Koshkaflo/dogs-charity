@@ -72,3 +72,44 @@ body {
 .social-link__mail {
     background-image: url(img/mail.png);
 }
+.bg-image__top {
+    background-image: linear-gradient(180deg, rgba(253, 155, 16, 0.3) 0%, rgba(100, 112, 134, 0.1) 100%), url(img/img-top.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1698px;
+    height: 590px;
+
+}
+.bg-title {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 72px;
+    max-width: 305px;
+    padding-left: 1233px;
+    padding-top: 72px;
+}
+.bg-title span {
+    font-weight: 400;
+    font-size: 36px;
+}
+.bg-image__bottom {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(180deg, rgba(253, 155, 16, 0.3) 0%, rgba(100, 112, 134, 0.3) 100%), url(img/img-bottom.jpg);
+    margin-top: 41px;
+    width: 1428px;
+    height: 355px;
+    margin-left: 272px;
+    text-align: right;
+}
+.button__bottom {
+    margin-top: 128px;
+    margin-right:120px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    background: #FD9B10;
+    border: none;
+    outline: none;
+    padding: 21px;
+}
