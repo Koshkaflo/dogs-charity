@@ -72,6 +72,9 @@ body {
 .social-link__mail {
     background-image: url(img/mail.png);
 }
+.bg-home {
+    position: relative;
+}
 .bg-image__top {
     background-image: linear-gradient(180deg, rgba(253, 155, 16, 0.3) 0%, rgba(100, 112, 134, 0.1) 100%), url(img/img-top.jpg);
     background-size: cover;
@@ -112,4 +115,61 @@ body {
     border: none;
     outline: none;
     padding: 21px;
+}
+.block-info {
+    position: absolute;
+    top: 484px;
+    left: 0;
+}
+.block-info__orange {
+    box-sizing: border-box;
+    position: absolute;
+    top: 106px;
+    z-index: 10;
+    width: 348px;
+    height: 338px;
+    background-color: #FD9B10;
+}
+.block-info__white {
+    box-sizing: border-box;
+    position: absolute;
+    left: 35px;
+    z-index: 20;
+    width: 422px;
+    height: 410px;
+    padding: 56px 50px 151px;
+    background-color: #FFFFFF;
+}
+.info-text__title {
+    font-weight: 700;
+    font-size: 30px;
+    width: 138px;
+    margin-bottom: 31px;
+}
+.info-text__desc {
+    font-weight: 500;
+    font-size: 18px;
+}
+.info-text__desc span {
+    color: #FD9B10;
+    font-weight: 700;
+    font-size: 18px;
+}
+.block-info-button {
+    position: absolute;
+    top: 293px;
+    left: 248px;
+    z-index: 30;
+}
+.block-info__btn {
+    box-sizing: border-box;
+    width: 283px;
+    height: 84px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 24px;
+    background-color: #FD9B10;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }
