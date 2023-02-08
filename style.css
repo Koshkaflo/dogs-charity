@@ -46,7 +46,12 @@ body {
     font-size: 24px;
     color: #000000;
     margin-right: 90px;
+    transition: background-color 5ms linear;
 }
+.nav__link:focus {
+    color: #f18d00;
+}
+
 .social {
     display: flex;
     list-style-type: none;
@@ -202,4 +207,8 @@ body {
     border: none;
     outline: none;
     cursor: pointer;
+    transition: background-color 5ms linear;
+}
+.block-info__btn:hover {
+    background-color: #f18d00;
 }
