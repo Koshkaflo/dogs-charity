@@ -131,8 +131,8 @@ body {
     height: 430px;
     top: 15px;
     left: 228px;
-    animation: 7s linear 0s normal none infinite running bg-title-rot;
-    -webkit-animation: 7s linear 0s normal none infinite running bg-title-rot;
+    animation: 10s linear 0s normal none infinite running bg-title-rot;
+    -webkit-animation: 10s linear 0s normal none infinite running bg-title-rot;
   }
   @keyframes bg-title-rot {
     0% {
